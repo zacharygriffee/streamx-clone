@@ -66,7 +66,7 @@ test("ReadableStreamClone 3 clones", async (t) => {
     r3.once("error", e => t.fail());
 
     function onData(id, data) {
-        if (!record[id]) {record[id] = ""};
+        if (!record[id]) {record[id] = ""}
         record[id] += data.toString();
     }
 

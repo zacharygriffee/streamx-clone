@@ -6,8 +6,11 @@
   "main": "index.js",
   "browser": "dist/index.min.js",
   "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/zacharygriffee/streamx-clone#readme",
   "scripts": {
-    "test": "brittle ./test.js"
+    "test": "brittle ./test.js",
+    "bundle": "node ./bundle.js"
   },
   "dependencies": {
     "streamx": "^2.18.0"
