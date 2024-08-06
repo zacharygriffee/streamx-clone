@@ -1,0 +1,22 @@
+{
+  "name": "streamx-clone",
+  "author": "Zachary Griffee <zacharygriffee@gmail.com>",
+  "version": "1.0.0",
+  "description": "Clone a streamx stream.",
+  "main": "index.js",
+  "browser": "dist/index.min.js",
+  "type": "module",
+  "scripts": {
+    "test": "brittle ./test.js"
+  },
+  "dependencies": {
+    "streamx": "^2.18.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "bring-your-own-storage-utilities": "^0.0.1332",
+    "brittle": "^3.6.1",
+    "localdrive": "^1.11.4"
+  }
+}
