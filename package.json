@@ -1,7 +1,7 @@
 {
   "name": "streamx-clone",
   "author": "Zachary Griffee <zacharygriffee@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "Clone a streamx stream.",
   "main": "index.js",
   "browser": "dist/index.min.js",

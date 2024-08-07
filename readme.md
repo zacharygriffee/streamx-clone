@@ -33,7 +33,7 @@ cloneStream.on("data", (chunk) => {
 });
 
 cloneStream.once("end", () => {
-    data === "Hello World!";
+    data === "Hello, World!";
 });
 
 ```
